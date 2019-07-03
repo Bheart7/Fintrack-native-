@@ -40,35 +40,35 @@ class Income extends Component { render() { return (
               <List style={{ marginTop: 10, fontSize: 18 }}>
                 <ListItem>
                   <Text>Category</Text>
-                  <Text>Wage</Text>
+                  <Text note>Wage</Text>
                 </ListItem>
                 <ListItem>
-                  <Text note>Account</Text>
-                  <Text>No account</Text>
+                  <Text>Account</Text>
+                  <Text note>No account</Text>
                 </ListItem>
                 <ListItem>
                   <Text note>Date</Text>
                   <Text> Jun 11 Thu</Text>
                 </ListItem>
                 <ListItem>
-                  <Text note>Time</Text>
-                  <Text>18:13</Text>
+                  <Text>Time</Text>
+                  <Text note>18:13</Text>
                 </ListItem>
                 <ListItem style={{ color: '#ccc'}}>
-                  <Text note>Note</Text>
-                  <Text>Tap to add note</Text>
+                  <Text>Note</Text>
+                  <Text note>Tap to add note</Text>
                 </ListItem>
                 <ListItem style={{ color: '#ccc'}}>
-                  <Text note>Project</Text>
-                  <Text>Tap to add Project</Text>
+                  <Text>Project</Text>
+                  <Text note>Tap to add Project</Text>
                 </ListItem>
                 <ListItem style={{ color: '#ccc'}}>
-                  <Text note>Merchant</Text>
-                  <Text>Tap to add Merchant</Text>
+                  <Text>Merchant</Text>
+                  <Text note>Tap to add Merchant</Text>
                 </ListItem>
                 <ListItem style={{ color: '#ccc'}}>
-                  <Text note>Label</Text>
-                  <Text>Tap to add label</Text>
+                  <Text>Label</Text>
+                  <Text note>Tap to add label</Text>
                 </ListItem>
               </List>
             </Card>
